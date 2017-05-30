@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+button{
+	cursor: pointer;
+}
+
+.scope-slim{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.slim-title{
+	padding: 15px 0px;
+}
+
+h1.slim-title{
+	font-weight: 300;
+	font-size: 3.5em;
+}
+
+h2.slim-title{
+	font-weight: 300;
+	font-size: 2em;
+}
+
+h3.slim-title{
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+h4.slim-title{
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+h5.slim-title{
+	font-weight: 300;
+	font-size: 1em;
+}
+
+h6.slim-title{
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+.slim-btn{
+	background: #ffffff;
+	border: none;
+	min-height: 50px;
+    min-width: 120px;
+    margin: 5px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.slim-btn-default{
+	background-color: #f1f1f1;
+	border: 2px solid #f1f1f1;
+    color: rgb(90, 90, 90);
+}
+
+.slim-btn-dark{
+	background-color: #5a5a5a;
+	border: 2px solid #5a5a5a;
+}
+
+.slim-btn-danger{
+	background-color: #fd573d;
+	border: 2px solid #fd573d;
+}
+
+.slim-btn-warning{
+	background-color: #fdbd5f;
+	border: 2px solid #fdbd5f;
+}
+
+.slim-btn-info{
+	background-color: #03A9F4;
+	border: 2px solid #03A9F4;
+}
+
+.slim-btn-success{
+	background-color: #1ac3b4;
+	border: 2px solid #1ac3b4;
+}
+
+.slim-btn-radius{
+	border-radius: 35px;
+}
+
+.slim-btn-light{
+	background-color: #fff;
+	color: rgb(90, 90, 90);
+}
+
+.slim-card{
+	width: 20em;
+    background: #ddd;
+    padding: 1em 0em;
+    margin: 10px;
+}
+
+.slim-card header{
+	text-align: left;
+	padding: 0px 20px;
+}

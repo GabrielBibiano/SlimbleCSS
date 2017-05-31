@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 *{
 	margin: 0;
 	padding: 0;
@@ -5,6 +6,30 @@
 
 button{
 	cursor: pointer;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.align-justify{
+	text-align: justify;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
 }
 
 .scope-slim{
@@ -55,6 +80,26 @@ h6.slim-title{
     color: white;
 }
 
+.slim-btn-small{
+	background: #ffffff;
+    border: none;
+    min-height: 35px;
+    min-width: 90px;
+    margin: 5px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.slim-btn-large{
+	background: #ffffff;
+    border: none;
+    min-height: 50px;
+    min-width: 180px;
+    margin: 5px;
+    padding: 10px 10px;
+    color: white;
+}
+
 .slim-btn-default{
 	background-color: #f1f1f1;
 	border: 2px solid #f1f1f1;
@@ -96,13 +141,100 @@ h6.slim-title{
 }
 
 .slim-card{
-	width: 20em;
-    background: #ddd;
-    padding: 1em 0em;
     margin: 10px;
+    border: 1px solid #e6e6e6;
+}
+
+.card-section{
+    padding: 1em;
 }
 
 .slim-card header{
-	text-align: left;
-	padding: 0px 20px;
+	background: #fff;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.slim-card header .title-card{
+	font-weight: 400;
+}
+
+.slim-card .content-card{
+	font-size: 15px;
+	color: #504f4f;
+}
+
+.slim-card .card-actions{
+	border-top: 1px solid #ddd;
+	margin-top: 1em;
+	padding-top: 1em;
+	overflow: hidden;
+}
+
+.small-card{
+	width: 15em;
+}
+
+.medium-card{
+	width: 23em;
+}
+
+.large-card{
+	width: 31em;
+}
+
+.slim-card .card-profile{
+	width: 4em;
+	border-radius: 2em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-content {
+	visibility: hidden;
+	width: 120px;
+	background-color: rgb(72, 71, 71);
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+	
+.tooltip:hover .tooltip-content {
+    visibility: visible;
+}
+
+.tooltip .tooltip-content::after {
+    content: " ";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(72, 71, 71) transparent transparent transparent;
+}
+
+.tooltip .tooltip-content {
+    width: 120px;
+    bottom: 110%;
+    left: 50%; 
+    margin-left: -60px;
+}
+
+.tooltip .tooltip-content {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.tooltip:hover .tooltip-content {
+    opacity: 1;
+}
+
+.with-tooltip{
+	overflow: initial !important;
 }
